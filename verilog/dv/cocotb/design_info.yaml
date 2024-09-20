@@ -1,9 +1,15 @@
-CARAVEL_ROOT: /usr/caravel_user_project/caravel
-MCW_ROOT: /usr/caravel_user_project/mgmt_core_wrapper
+
+CARAVEL_ROOT: /home/flyinglobster/timer-tutorial/caravel
+
+MCW_ROOT: "/home/flyinglobster/timer-tutorial/mgmt_core_wrapper"
+
+USER_PROJECT_ROOT: /home/flyinglobster/timer-tutorial
+PDK_ROOT: "/home/flyinglobster/asic/pdk"
+
 PDK: sky130A
-PDK_ROOT: /usr/pdk
-USER_PROJECT_ROOT: /usr/caravel_user_project
+
+clk: 25  
+
 caravan: false
-clk: 25
-emailto:
-- null
+
+emailto: [None]

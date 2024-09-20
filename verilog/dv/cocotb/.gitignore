@@ -1,4 +1,8 @@
-sim/ 
-*.log
-*.vcd 
+*.log 
+*.vcd
+*.vpd
+sim_build/
+sim/
 *.pyc
+*.xml
+__pycache__/

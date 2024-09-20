@@ -12,18 +12,19 @@
     "MACRO_PLACEMENT_CFG": "dir::macro.cfg",
     "MAGIC_DEF_LABELS": 0,
     "VERILOG_FILES_BLACKBOX": [
-        "dir::../../verilog/gl/user_proj_example.v"
+        "dir::../../verilog/gl/user_proj_timer.v"
     ],
-    "EXTRA_LEFS": "dir::../../lef/user_proj_example.lef",
-    "EXTRA_GDS_FILES": "dir::../../gds/user_proj_example.gds",
-    "EXTRA_LIBS": "dir::../../lib/user_proj_example.lib",
+    "EXTRA_LEFS": "dir::../../lef/user_proj_timer.lef",
+    "EXTRA_GDS_FILES": "dir::../../gds/user_proj_timer.gds",
+    "EXTRA_LIBS": "dir::../../lib/user_proj_timer.lib",
     "EXTRA_SPEFS": [
-        "user_proj_example", 
-        "dir::../../spef/multicorner/user_proj_example.min.spef", 
-        "dir::../../spef/multicorner/user_proj_example.nom.spef", 
-        "dir::../../spef/multicorner/user_proj_example.max.spef"
+        "user_proj_timer", 
+        "dir::../../spef/multicorner/user_proj_timer.min.spef", 
+        "dir::../../spef/multicorner/user_proj_timer.nom.spef", 
+        "dir::../../spef/multicorner/user_proj_timer.max.spef"
     ],
     "BASE_SDC_FILE": "dir::base_user_project_wrapper.sdc",
+    "RCX_SDC_FILE": "dir::base_user_project_wrapper.sdc",
     "IO_SYNC": 0,
     "MAX_TRANSITION_CONSTRAINT": 1.5,
     "RUN_LINTER": 0,
